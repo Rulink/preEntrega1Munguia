@@ -4,8 +4,8 @@ import cart from '../assets/icons/car.png';
 const CartWidget = () => {
   return (
     <div className="carrito">
-        <img src={cart} className="invertir cart"/>
-        <p id="articulos">5</p>
+        <img src={cart} className="invertir cart" alt='carrito'/>
+        <h2 id="articulos">5</h2>
     </div>
   )
 }
